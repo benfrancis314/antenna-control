@@ -7,3 +7,15 @@
 //
 
 #include "get_ant_data.h"
+
+//Assemble<packetName>Packet(CANPacket *packetToAssemble,
+//uint8_t targetDeviceGroup,
+//uint8_t targetDeviceSerial,
+//<type> data);
+
+
+
+
+
+
+

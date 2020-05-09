@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		3FC033392467292700071944 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC033382467292700071944 /* main.cpp */; };
+		3FC033412467296A00071944 /* get_ant_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC033402467296A00071944 /* get_ant_data.c */; };
+		3FC03344246729AD00071944 /* map_gps_to_ang.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC03342246729AD00071944 /* map_gps_to_ang.cpp */; };
+		3FC03347246729EA00071944 /* send_ant_data.c in Sources */ = {isa = PBXBuildFile; fileRef = 3FC03346246729EA00071944 /* send_ant_data.c */; };
+		3FC0334A246729FF00071944 /* get_rov_data.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 3FC03348246729FF00071944 /* get_rov_data.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,14 @@
 /* Begin PBXFileReference section */
 		3FC033352467292700071944 /* Antenna_Control */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Antenna_Control; sourceTree = BUILT_PRODUCTS_DIR; };
 		3FC033382467292700071944 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		3FC0333F2467296A00071944 /* get_ant_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = get_ant_data.h; sourceTree = "<group>"; };
+		3FC033402467296A00071944 /* get_ant_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = get_ant_data.c; sourceTree = "<group>"; };
+		3FC03342246729AD00071944 /* map_gps_to_ang.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = map_gps_to_ang.cpp; sourceTree = "<group>"; };
+		3FC03343246729AD00071944 /* map_gps_to_ang.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = map_gps_to_ang.hpp; sourceTree = "<group>"; };
+		3FC03345246729EA00071944 /* send_ant_data.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = send_ant_data.h; sourceTree = "<group>"; };
+		3FC03346246729EA00071944 /* send_ant_data.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = send_ant_data.c; sourceTree = "<group>"; };
+		3FC03348246729FF00071944 /* get_rov_data.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = get_rov_data.cpp; sourceTree = "<group>"; };
+		3FC03349246729FF00071944 /* get_rov_data.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = get_rov_data.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,14 @@
 			isa = PBXGroup;
 			children = (
 				3FC033382467292700071944 /* main.cpp */,
+				3FC03342246729AD00071944 /* map_gps_to_ang.cpp */,
+				3FC03343246729AD00071944 /* map_gps_to_ang.hpp */,
+				3FC0333F2467296A00071944 /* get_ant_data.h */,
+				3FC03345246729EA00071944 /* send_ant_data.h */,
+				3FC03346246729EA00071944 /* send_ant_data.c */,
+				3FC03348246729FF00071944 /* get_rov_data.cpp */,
+				3FC03349246729FF00071944 /* get_rov_data.hpp */,
+				3FC033402467296A00071944 /* get_ant_data.c */,
 			);
 			path = Antenna_Control;
 			sourceTree = "<group>";
@@ -119,7 +139,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3FC03344246729AD00071944 /* map_gps_to_ang.cpp in Sources */,
+				3FC03347246729EA00071944 /* send_ant_data.c in Sources */,
+				3FC033412467296A00071944 /* get_ant_data.c in Sources */,
 				3FC033392467292700071944 /* main.cpp in Sources */,
+				3FC0334A246729FF00071944 /* get_rov_data.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
