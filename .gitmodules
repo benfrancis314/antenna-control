@@ -1,0 +1,3 @@
+[submodule "AntennaLib/CAN"]
+	path = AntennaLib/CAN
+	url = https://github.com/benfrancis314/CAN
